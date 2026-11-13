@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#151413"><meta name="description" content="JESTER — личная писательская студия"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>JESTER — писательская студия</title>
+</head>
+<body>
+<div class="app-shell">
+<header class="topbar"><div><div class="brand">JESTER</div><div class="tagline">Личная писательская студия</div></div><button class="icon-btn" id="exportBtn" title="Экспорт данных">⇧</button></header>
+<main id="view" class="view"></main>
+<nav class="nav"><button data-page="home" class="active"><span>⌂</span>Главная</button><button data-page="projects"><span>▤</span>Проекты</button><button data-page="library"><span>▣</span>Библиотека</button><button data-page="ai"><span>✧</span>ИИ-центр</button><button data-page="settings"><span>⚙</span>Настройки</button></nav>
+</div>
+<div id="toast" class="toast"></div>
+<input id="importFile" type="file" accept="application/json" hidden>
+<script src="app.js"></script>
+</body></html>
